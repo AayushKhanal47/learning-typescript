@@ -33,3 +33,23 @@ let d:unknown;
  function aas(): string{
     return "Aayush";
  }
+
+
+ //interface and type aliases
+
+ interface User{
+    name:string,
+    age:number,
+    email:string
+ }
+ function getUser(obj:User){
+
+ }
+
+ getUser({ name: "Aayush", age: 21, email: "aayush@gmail.com" });
+
+ interface Admin extends User{
+    admin: boolean;
+ }
+
+ 
