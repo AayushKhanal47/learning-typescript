@@ -54,5 +54,14 @@ let d:unknown;
 
  type value = string|number|null;
  let k:value = "aayush";
-
  
+class HumanMaker {
+   age = 0;
+   constructor(public name: string, public gender:string, public isHandsome:boolean){
+
+   }
+}
+let h1 = new HumanMaker("Aayush", "male", true)
+console.log(h1);
+
+
