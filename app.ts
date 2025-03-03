@@ -52,4 +52,7 @@ let d:unknown;
     admin: boolean;
  }
 
+ type value = string|number|null;
+ let k:value = "aayush";
+
  
